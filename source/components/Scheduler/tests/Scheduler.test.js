@@ -12,7 +12,7 @@ import { api } from '../../../REST';
 
 jest.mock('../../../REST');
 
-describe('Компонент Scheduler:', () => {
+describe.only('Компонент Scheduler:', () => {
     describe('должен иметь базовую разметку JSX:', () => {
         test('должен соответствовать снепшоту разметки', () => {
             expect(result).toMatchSnapshot();

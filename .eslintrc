@@ -303,7 +303,7 @@ rules:
   react/jsx-pascal-case: 2
   react/jsx-sort-props: [2, {
                               "callbacksLast": true,
-                              "shorthandFirst": true,
+                              "shorthandFirst": false,
                               "ignoreCase": true
                             }]
   react/jsx-tag-spacing: [2, {
